@@ -34,7 +34,7 @@ define([], function () {
       "id": null, //id of the search layer as defined in the web map
       "fields": [] //Name of the string field to search
     },
-    "customUrlParam": 1245243242343, //Name of url param. For example parcels
+    "customUrlParam": null, //Name of url param. For example parcels
     "bingmapskey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
     //Defaults to arcgis.com. Set this value to your portal or organization host name.
     "sharinghost": location.protocol + "//" + "www.arcgis.com",
