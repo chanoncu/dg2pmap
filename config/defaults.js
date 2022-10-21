@@ -37,7 +37,7 @@ define([], function () {
     "customUrlParam": null, //Name of url param. For example parcels
     "bingmapskey": "", //Enter the url to your organizations bing maps key if you want to use bing basemaps
     //Defaults to arcgis.com. Set this value to your portal or organization host name.
-    "sharinghost": location.protocol + "//" + "worleyparsons.maps.arcgis.com",
+    "sharinghost": location.protocol + "//" + "https://worleyparsons.maps.arcgis.com",
     //When true the template will query arcgis.com for default settings for helper services, units etc. If you
     //want to use custom settings for units or any of the helper services set queryForOrg to false then enter
     //default values for any items you need using the helper services and units properties.
